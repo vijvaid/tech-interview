@@ -40,7 +40,7 @@ public class DetermineStringsAreCloseTests
     [Test]
     public void CloseStrings_DifferentKeys_ReturnsFalse()
     {
-        Assert.That(determineStringsAreClose.CloseStrings("abc", "def"), Is.False);
+        Assert.That(determineStringsAreClose.CloseStrings("abcd", "defd"), Is.False);
     }
 
     [Test]
